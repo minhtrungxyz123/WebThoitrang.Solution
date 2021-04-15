@@ -1,0 +1,9 @@
+[
+  {
+    "outputFileName": "Assets/admin/js/app.min.js",
+    "inputFiles": [
+      "Assets/admin/js/app.js"
+    ]
+  }
+]
+

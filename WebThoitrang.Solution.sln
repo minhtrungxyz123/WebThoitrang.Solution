@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{0DC78541-1928-4052-8BC9-DAC66FD6B41A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{7380C94D-24F3-4CFC-B481-3953BF49B884}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{DD567B30-DA68-43FF-B866-6403DA64DF92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebThoitrang.Web", "WebThoitrang.Web\WebThoitrang.Web.csproj", "{0176FF1A-7996-4BB3-BA07-0122B68ECA4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebThoitrang.Model", "WebThoitrang.Model\WebThoitrang.Model.csproj", "{935061A1-9C0E-488B-902A-3A55AAB7A176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebThoitrang.Data", "WebThoitrang.Data\WebThoitrang.Data.csproj", "{73BF475A-F74D-4DFF-8ABF-9F38F8EF8069}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebThoitrang.Service", "WebThoitrang.Service\WebThoitrang.Service.csproj", "{4416F09B-78F9-48B2-A9B8-D184830C7A86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebThoitrang.Common", "WebThoitrang.Common\WebThoitrang.Common.csproj", "{8B517D64-127A-42CF-8822-63DB8D043677}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0176FF1A-7996-4BB3-BA07-0122B68ECA4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0176FF1A-7996-4BB3-BA07-0122B68ECA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0176FF1A-7996-4BB3-BA07-0122B68ECA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0176FF1A-7996-4BB3-BA07-0122B68ECA4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{935061A1-9C0E-488B-902A-3A55AAB7A176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{935061A1-9C0E-488B-902A-3A55AAB7A176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{935061A1-9C0E-488B-902A-3A55AAB7A176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{935061A1-9C0E-488B-902A-3A55AAB7A176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73BF475A-F74D-4DFF-8ABF-9F38F8EF8069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BF475A-F74D-4DFF-8ABF-9F38F8EF8069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BF475A-F74D-4DFF-8ABF-9F38F8EF8069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BF475A-F74D-4DFF-8ABF-9F38F8EF8069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4416F09B-78F9-48B2-A9B8-D184830C7A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4416F09B-78F9-48B2-A9B8-D184830C7A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4416F09B-78F9-48B2-A9B8-D184830C7A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4416F09B-78F9-48B2-A9B8-D184830C7A86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B517D64-127A-42CF-8822-63DB8D043677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B517D64-127A-42CF-8822-63DB8D043677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B517D64-127A-42CF-8822-63DB8D043677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B517D64-127A-42CF-8822-63DB8D043677}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{935061A1-9C0E-488B-902A-3A55AAB7A176} = {7380C94D-24F3-4CFC-B481-3953BF49B884}
+		{73BF475A-F74D-4DFF-8ABF-9F38F8EF8069} = {7380C94D-24F3-4CFC-B481-3953BF49B884}
+		{4416F09B-78F9-48B2-A9B8-D184830C7A86} = {0DC78541-1928-4052-8BC9-DAC66FD6B41A}
+		{8B517D64-127A-42CF-8822-63DB8D043677} = {DD567B30-DA68-43FF-B866-6403DA64DF92}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {102E21B1-5D10-47EF-AEA6-A3B5F33E6A22}
+	EndGlobalSection
+EndGlobal
