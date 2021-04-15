@@ -123,7 +123,7 @@ namespace WebThoitrang.Web.Controllers
                     info.Total_amount = orderDetails.Sum(x => x.Quantity * x.Price).ToString();
                     info.fee_shipping = "0";
                     info.Discount_amount = "0";
-                    info.order_description = "Thanh toán đơn hàng tại TeduShop";
+                    info.order_description = "Thanh toán đơn hàng tại shop";
                     info.return_url = currentLink + "xac-nhan-don-hang.html";
                     info.cancel_url = currentLink + "huy-don-hang.html";
 
