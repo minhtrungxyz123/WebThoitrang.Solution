@@ -5162,6 +5162,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -5214,6 +5215,9 @@
     <Content Include="Views\ShoppingCart\CancelOrder.cshtml" />
     <Content Include="Views\ShoppingCart\ConfirmOrder.cshtml" />
     <Content Include="Views\ShoppingCart\Index.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\ListOrder\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="UploadedFiles\" />

@@ -1,0 +1,29 @@
+﻿@model WebThoitrang.Web.Models.OrderViewModel
+
+@{ ViewBag.Title = "Index"; }
+
+<table id="customers">
+    <tr>
+        <th>Mã Khách Hàng</th>
+        <th>Tên Khách Hàng</th>
+        <th>Số Điện Thoại</th>
+        <th>Số Công Tơ</th>
+        <th>Mã Cột Điện</th>
+        <th>ĐN Trực Tiếp</th>
+        <th>Chỉ Số Cũ</th>
+        <th>Chỉ Số Mới</th>
+        <th>Thành Tiền</th>
+    </tr>
+    <tr>
+        <td>@Model.ID</td>
+        <td>@Model.CustomerName</td>
+        <td>@Model.CustomerAddress</td>
+        <td>@Model.CustomerEmail</td>
+        <td>@Model.CustomerMobile</td>
+        <td>@Model.CustomerMessage</td>
+        <td>@Model.PaymentMethod</td>
+        <td>@Model.CreatedDate</td>
+        <td>@Model.CreatedBy</td>
+    </tr>
+</table>
+
